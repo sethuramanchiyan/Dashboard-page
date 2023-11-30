@@ -1,0 +1,36 @@
+li
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+.Sidebar
+{
+
+    
+    width: 50px;
+    
+    height: 600px;
+}
+.Homebar
+{
+    height: 100%;
+    border: 1px solid rgb(243, 226, 226);
+    margin-top: 10px;
+}
+.Menubar
+{
+    visibility: hidden;
+    border: 1px solid rgb(243, 226, 226);
+    width: 100px;
+    height: 600px;
+}
+.Homebar:hover .Menubar
+{
+    visibility: visible;
+}
+.Homebar img
+{
+    width: 40px;
+    height: 40px;
+}
+

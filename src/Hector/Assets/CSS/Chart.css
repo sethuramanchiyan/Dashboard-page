@@ -1,0 +1,27 @@
+.Chart
+{
+    flex: 9;
+    border: 1px solid rgb(243, 226, 226);
+    padding: 10px;      
+}
+.verticalChart
+{
+    width: 100%;
+    padding: 10px;   
+}
+.verticalChart link
+{
+    text-align: center;
+}
+Link
+{
+    text-align: center;
+}
+@media(max-width:500px)
+{
+    .Chart
+    {
+        flex:9;
+    }
+
+}
