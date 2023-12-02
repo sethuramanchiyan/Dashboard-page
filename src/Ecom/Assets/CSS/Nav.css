@@ -1,0 +1,16 @@
+.navi
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+ul
+{
+    list-style-type: none;
+}
+nav
+{
+    background-color: black;
+    color: white;
+}

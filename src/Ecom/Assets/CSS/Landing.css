@@ -1,0 +1,25 @@
+.landing
+{
+    background-color: gold;
+}
+.start
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+}
+.butt
+{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+@media(max-width:600px)
+{
+    .Women
+    {
+        width: 90%;
+        height: 90%;
+    }
+}
