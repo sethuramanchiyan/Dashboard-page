@@ -1,6 +1,7 @@
 .landing
 {
     background-color: gold;
+    height: 100%;
 }
 .start
 {
@@ -15,11 +16,23 @@
     color: white;
     border-radius: 10px;
 }
+.landing img
+{
+    max-width: 100%;
+}
 @media(max-width:600px)
 {
-    .Women
+    .landing img
     {
-        width: 90%;
-        height: 90%;
+        max-width: 80%;
+        
+    }
+}
+@media(min-width:300px)
+{
+    .landing img
+    {
+        max-width: 80%;
+       
     }
 }

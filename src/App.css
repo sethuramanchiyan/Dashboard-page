@@ -1,1 +1,8 @@
-/* l */
+.Dashboardnav
+{
+    flex: 9;
+}
+.Dashsidebar
+{
+    flex:3;
+}

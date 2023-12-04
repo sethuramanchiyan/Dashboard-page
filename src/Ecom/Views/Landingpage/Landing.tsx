@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import Women from '/Typescript/react-typescript-demo/src/Ecom/Assets/Images/woman.png'
 import '/Typescript/react-typescript-demo/src/Ecom/Assets/CSS/Landing.css';
-import Tshirts from '../Tshirts/Tshirts';
+
 
 function Landing() {
     const navigae=useNavigate();

@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+// import Dashboardnav from './Dashboard/Dashboardnav';
+// import Dashsidebar from './Dashboard/Dashsidebar';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Tshirts from './Ecom/Views/Tshirts/Tshirts'
 import Landing from './Ecom/Views/Landingpage/Landing';
@@ -18,7 +20,7 @@ import Contact from './Ecom/Views/Contact/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       {/* <BrowserRouter>
           <Routes>
             <Route path='/' element={<Welcome />} /> 
@@ -27,7 +29,7 @@ function App() {
             <Route path='/Home' element={<Home />} /> 
             <Route path='/Tablehome' element={<Tablehome />} />
           </Routes>        
-      </BrowserRouter> */}
+      </BrowserRouter>  */}
       <BrowserRouter>
             <Routes>
                   <Route path='/' element={<Landing />}/>
@@ -40,7 +42,9 @@ function App() {
 
             </Routes>
       </BrowserRouter>
-
+{/*    
+    <Dashsidebar />
+    <Dashboardnav /> */}
 
     </div>
 
