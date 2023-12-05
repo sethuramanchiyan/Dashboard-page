@@ -1,0 +1,55 @@
+.box
+{
+    border: 1px solid rgb(206, 199, 199);
+    border-radius: 5px;
+}
+.home
+{
+    border: 1px solid rgb(206, 199, 199);
+
+}
+.posts
+{
+    display: flex;
+    justify-content: space-between;
+}
+.HighchartsReact
+{
+max-width:90%;
+max-height: 30%;
+}
+.green
+{
+    color: green;
+}
+@media(min-width:900px)
+{
+    .box
+{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+}
+@media(max-width:800px)
+{
+    .box
+{
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 80%;
+}
+}
+
+.red
+{
+    color: red;
+}
+@media(max-width:500px)
+{
+    .HighchartsReact
+    {
+       height: 30%;
+    }
+}

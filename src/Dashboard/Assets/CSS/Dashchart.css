@@ -1,0 +1,19 @@
+.linechart
+{
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+.piechart
+{
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    /* width: 80%; */
+}
+@media(max-width:800px)
+{
+    .piechart
+    {
+        margin-top: 20px;
+    }
+
+}

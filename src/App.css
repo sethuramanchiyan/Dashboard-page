@@ -1,8 +1,9 @@
-.Dashboardnav
+body
 {
-    flex: 9;
+background-color: rgb(225, 224, 224);
 }
-.Dashsidebar
+.Dashboard
 {
-    flex:3;
+   width: 80%;
+   max-width: 80%;
 }

@@ -1,4 +1,14 @@
-input
+.navinput
 {
     width: 100%;
+}
+.navinput  input
+{
+    width: 90%;
+}
+.Dashnavi
+{
+    background-color: black;
+    color: white;
+    
 }
